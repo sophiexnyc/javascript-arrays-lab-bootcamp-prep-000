@@ -23,3 +23,7 @@ function destructivelyRemoveFirstKitten() {
 function appendKitten(name) {
 	return window.kittens.concat(name);
 }
+
+function prependKitten(name) {
+	return [name,...window.kittens];
+}
