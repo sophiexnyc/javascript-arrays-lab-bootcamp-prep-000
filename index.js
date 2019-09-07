@@ -19,3 +19,7 @@ function destructivelyRemoveLastKitten() {
 function destructivelyRemoveFirstKitten() {
 	return window.kittens.shift();
 }
+
+function appendKitten(name) {
+	return window.kittens.concat(name);
+}
